@@ -36,8 +36,6 @@
 <summary><strong> 레퍼런스 </strong></summary>
 <br>
 
-Read these before you start:
-
 - [About PyInstaller Errors]<https://stackoverflow.com/questions/69348567/pyinstaller-tkdnd-tkinterdnd2-unable-to-load-tkdnd-library-when-launching-fr>.
 - [Python]<https://www.python.org>.
 
