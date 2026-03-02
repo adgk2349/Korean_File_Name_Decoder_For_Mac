@@ -57,7 +57,7 @@ struct AboutView: View {
 
                 // GitHub 링크 버튼
                 Button(action: {
-                    if let url = URL(string: "https://github.com/adgk2349/KDecoder-for-Mac") {
+                    if let url = URL(string: "https://github.com/adgk2349/KDecoder_for_Mac") {
                         NSWorkspace.shared.open(url)
                     }
                 }) {

@@ -66,8 +66,8 @@
 ## 🏗️ 직접 빌드하기
 
 ```bash
-git clone https://github.com/adgk2349/KDecoder-for-Mac.git
-cd KDecoder-for-Mac
+git clone https://github.com/adgk2349/KDecoder_for_Mac.git
+cd KDecoder_for_Mac
 open KDecoder.xcodeproj
 ```
 
