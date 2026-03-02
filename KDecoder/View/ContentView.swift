@@ -68,15 +68,6 @@ struct ContentView: View {
                     Spacer()
                     Toggle("바탕화면에 유지", isOn: $viewModel.saveToDesktop)
                         .toggleStyle(.checkbox)
-                    Button(action: {
-                        NSApplication.shared.terminate(nil)
-                    }) {
-                        Image(systemName: "power")
-                            .font(.caption)
-                            .foregroundColor(.secondary)
-                    }
-                    .buttonStyle(.plain)
-                    .help("KDecoder 종료")
                 }
                 .padding(.horizontal)
 
@@ -100,6 +91,17 @@ struct ContentView: View {
                     Spacer()
 
                     VersionButton()
+
+                    Button(action: {
+                        NSApplication.shared.terminate(nil)
+                    }) {
+                        Label("종료", systemImage: "power")
+                            .padding(.horizontal, 12)
+                            .padding(.vertical, 6)
+                    }
+                    .buttonStyle(.plain)
+                    .glassEffect(.regular.interactive(), in: .capsule)
+                    .help("KDecoder 종료")
                 }
                 .padding(.horizontal)
             }
