@@ -82,14 +82,7 @@ Xcode에서 빌드 후 실행 (⌘R)
 
 KDecoder가 도움이 되셨다면 후원을 고려해 주세요!
 
-<!-- 후원 링크를 아래 주석 안에 추가해주세요 -->
-<!-- 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](YOUR_LINK_HERE)
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%9D%A4-red?style=flat&logo=github)](YOUR_LINK_HERE)
-[![Toss](https://img.shields.io/badge/토스로%20후원-0064FF?style=flat&logo=toss&logoColor=white)](YOUR_LINK_HERE)
--->
-
-> 💬 `YOUR_LINK_HERE` 부분을 후원 링크로 교체 후 주석을 해제하시면 바로 활성화됩니다!
+[![PayPal](https://img.shields.io/badge/PayPal로%20후원-00457C?style=flat&logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/run1213)
 
 ---
 
