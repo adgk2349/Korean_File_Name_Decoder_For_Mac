@@ -33,8 +33,6 @@
 		CD9C7B8D2F5589C8008F2435 /* Exceptions for "KDecoder" folder in "KDecoder" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Assets.xcassets,
-				Info.plist,
 			);
 			target = CD9C7B602F557FD4008F2435 /* KDecoder */;
 		};
