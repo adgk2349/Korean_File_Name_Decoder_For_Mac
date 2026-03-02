@@ -18,7 +18,7 @@ private struct VersionButton: View {
                 NSWorkspace.shared.open(url)
             }
         }) {
-            Text("v1.0.1")
+            Text("v2.0.1")
                 .font(.caption2)
                 .foregroundColor(isHovered ? .primary : .secondary)
         }
