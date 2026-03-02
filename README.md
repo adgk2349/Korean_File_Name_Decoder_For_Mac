@@ -49,13 +49,10 @@
 
 ## 📸 스크린샷
 
-<!-- 스크린샷을 여기에 추가하세요 -->
-<!-- 예시:
-![메인 화면](screenshots/main.png)
-![드롭 존](screenshots/drop.png)
--->
-
-> *스크린샷 준비 중*
+<p align="center">
+  <img src="screenshots/main.png" width="45%" alt="메인 화면">
+  <img src="screenshots/bar.png" width="45%" alt="메뉴 바 아이콘">
+</p>
 
 ---
 
