@@ -1,73 +1,72 @@
 # KDecoder for Mac
 
-> A lightweight macOS menu bar app that fixes broken Korean file names caused by encoding issues.
+> 윈도우에서 옮긴 한글 파일명이 깨질 때, 드래그 한 번으로 해결하는 macOS 메뉴바 앱
 
 ---
 
-## 📌 Overview
+## 📌 소개
 
-When transferring files between Windows and macOS, Korean file names can become garbled due to **Unicode normalization differences** (NFC vs NFD). **KDecoder** automatically decodes and normalizes these broken file names with a simple drag & drop.
-
----
-
-## ✨ Features
-
-- 🖱️ **Drag & Drop** — Drop files directly onto the app window to fix their names instantly
-- 📂 **Manual File Selection** — Pick files manually using the built-in file picker
-- 🖥️ **Menu Bar App** — Lives quietly in your menu bar, always ready when you need it
-- 💾 **Save to Desktop** — Optionally save renamed files to the Desktop instead of in-place
-- ⚡ **Batch Processing** — Handle multiple files at once
-- 🔁 **Conflict Handling** — Automatically appends `_copy1`, `_copy2`, etc. when a file with the same name already exists
-- 🔒 **Sandboxed & Privacy-Friendly** — Uses macOS security-scoped bookmarks for folder access
+윈도우와 macOS 간에 파일을 이동할 때, **유니코드 정규화 방식의 차이(NFC ↔ NFD)** 로 인해 한글 파일명이 깨지는 문제가 발생합니다. **KDecoder**는 이런 깨진 파일명을 드래그 앤 드롭만으로 즉시 복원해 줍니다.
 
 ---
 
-## 🚀 How to Use
+## ✨ 기능
 
-### Basic Usage
-
-1. **Launch KDecoder** — The app appears in your menu bar (top-right of screen)
-2. **Click the menu bar icon** to open the app window
-3. **Drag & drop** garbled-named files onto the drop zone
-4. The file names are fixed automatically ✅
-
-### Manual File Selection
-
-- Click the **"직접 선택 (Select Files)"** button at the bottom of the window
-- Choose the files you want to fix
-- Done!
-
-### Save to Desktop Option
-
-- Toggle the **"바탕화면에 유지 (Save to Desktop)"** checkbox
-- When enabled, fixed files are copied to your Desktop instead of being renamed in place
-
-### First Launch (Folder Access)
-
-On first launch, KDecoder will ask for permission to access your files. Grant access to the folder containing your files when prompted.
+- 🖱️ **드래그 앤 드롭** — 파일을 앱 창에 끌어다 놓으면 바로 파일명 복원
+- 📂 **직접 선택** — 파일 선택기로 수동으로 파일 선택 가능
+- 🖥️ **메뉴바 앱** — 메뉴바에 조용히 상주하며 필요할 때 바로 사용
+- 💾 **바탕화면에 저장** — 원본 위치 대신 바탕화면에 복원된 파일 저장 옵션 제공
+- ⚡ **다중 파일 처리** — 여러 파일을 한 번에 처리
+- 🔁 **파일명 충돌 처리** — 동일한 이름의 파일이 있으면 자동으로 `_copy1`, `_copy2` 등을 붙여 처리
+- 🔒 **샌드박스 & 개인정보 보호** — macOS 보안 범위 북마크를 사용한 안전한 폴더 접근
 
 ---
 
-## 📸 Screenshots
+## 🚀 사용 방법
 
-<!-- Add screenshots here -->
-<!-- Example:
-![Main Window](screenshots/main.png)
-![Drop Zone](screenshots/drop.png)
+### 기본 사용법
+
+1. **KDecoder 실행** — 앱이 화면 오른쪽 상단 메뉴바에 나타납니다
+2. **메뉴바 아이콘 클릭** — 앱 창을 엽니다
+3. **파일을 드롭 존에 끌어다 놓기** — 깨진 파일명이 자동으로 복원됩니다 ✅
+
+### 직접 파일 선택
+
+- 창 하단의 **"직접 선택"** 버튼 클릭
+- 복원할 파일 선택
+- 완료!
+
+### 바탕화면에 유지 옵션
+
+- **"바탕화면에 유지"** 체크박스를 켜면
+- 복원된 파일이 원본 위치 대신 **바탕화면**에 저장됩니다
+
+### 첫 실행 시 (폴더 접근 권한)
+
+처음 실행하면 파일 접근 권한을 요청합니다. 팝업이 뜨면 파일이 있는 폴더에 대한 접근을 허용해 주세요.
+
+---
+
+## 📸 스크린샷
+
+<!-- 스크린샷을 여기에 추가하세요 -->
+<!-- 예시:
+![메인 화면](screenshots/main.png)
+![드롭 존](screenshots/drop.png)
 -->
 
-> *Screenshots coming soon*
+> *스크린샷 준비 중*
 
 ---
 
-## 🛠️ Requirements
+## 🛠️ 요구 사항
 
-- macOS 26.0 or later
-- Apple Silicon or Intel Mac
+- macOS 26.0 이상
+- Apple Silicon 또는 Intel Mac
 
 ---
 
-## 🏗️ Build from Source
+## 🏗️ 직접 빌드하기
 
 ```bash
 git clone https://github.com/adgk2349/Korean_File_Name_Decoder_For_Mac.git
@@ -75,25 +74,25 @@ cd Korean_File_Name_Decoder_For_Mac
 open KDecoder.xcodeproj
 ```
 
-Then build and run in Xcode (⌘R).
+Xcode에서 빌드 후 실행 (⌘R)
 
 ---
 
-## 💝 Support
+## 💝 후원
 
-If KDecoder has been helpful, consider supporting the project!
+KDecoder가 도움이 되셨다면 후원을 고려해 주세요!
 
-<!-- Add your donation/sponsor link below -->
+<!-- 후원 링크를 아래 주석 안에 추가해주세요 -->
 <!-- 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](YOUR_LINK_HERE)
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%9D%A4-red?style=flat&logo=github)](YOUR_LINK_HERE)
-[![Toss](https://img.shields.io/badge/Toss-0064FF?style=flat&logo=toss&logoColor=white)](YOUR_LINK_HERE)
+[![Toss](https://img.shields.io/badge/토스로%20후원-0064FF?style=flat&logo=toss&logoColor=white)](YOUR_LINK_HERE)
 -->
 
-> 💬 후원 링크를 위 주석 안에 추가해주세요!
+> 💬 `YOUR_LINK_HERE` 부분을 후원 링크로 교체 후 주석을 해제하시면 바로 활성화됩니다!
 
 ---
 
-## 📄 License
+## 📄 라이선스
 
 MIT License © 2026 [adgk2349](https://github.com/adgk2349)
