@@ -66,8 +66,8 @@
 ## 🏗️ 직접 빌드하기
 
 ```bash
-git clone https://github.com/adgk2349/Korean_File_Name_Decoder_For_Mac.git
-cd Korean_File_Name_Decoder_For_Mac
+git clone https://github.com/adgk2349/KDecoder-for-Mac.git
+cd KDecoder-for-Mac
 open KDecoder.xcodeproj
 ```
 
