@@ -14,7 +14,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var dragView: StatusItemDragView?
 
     func applicationDidFinishLaunching(_ notification: Notification) {
-        // 0. 저장된 북마크로 폴더 접근 권한 복원
+        // 0. 메뉴바 전용 앱으로 설정 (Dock 아이콘 숨김)
+        NSApp.setActivationPolicy(.accessory)
+
+        // 1. 저장된 북마크로 폴더 접근 권한 복원
         BookmarkManager.shared.startAccess()
 
         // 1. NSPopover 초기화 (투명 배경)
@@ -100,6 +103,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         if popover?.isShown == true {
             popover?.performClose(nil)
         }
+    }
+
+    // 창 닫아도 앱 종료 안 되게 (메뉴바 유지)
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        return false
     }
 
     // MARK: - 커스텀 About 창
