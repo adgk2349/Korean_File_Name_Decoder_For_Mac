@@ -101,4 +101,26 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             popover?.performClose(nil)
         }
     }
+
+    // MARK: - 커스텀 About 창
+
+    private var aboutWindow: NSWindow?
+
+    @objc func showAboutPanel(_ sender: Any?) {
+        if let existing = aboutWindow, existing.isVisible {
+            existing.makeKeyAndOrderFront(nil)
+            return
+        }
+
+        let hostingController = NSHostingController(rootView: AboutView())
+        let window = NSWindow(contentViewController: hostingController)
+        window.title = "KDecoder 정보"
+        window.styleMask = [.titled, .closable, .fullSizeContentView]
+        window.titlebarAppearsTransparent = true
+        window.isMovableByWindowBackground = true
+        window.center()
+        window.setContentSize(hostingController.view.fittingSize)
+        window.makeKeyAndOrderFront(nil)
+        self.aboutWindow = window
+    }
 }

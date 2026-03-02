@@ -22,5 +22,14 @@ struct KDecoderApp: App {
                     )
                 }
         }
+        .commands {
+            CommandGroup(replacing: .appInfo) {
+                Button("KDecoder 정보...") {
+                    if let delegate = NSApp.delegate as? AppDelegate {
+                        delegate.showAboutPanel(nil)
+                    }
+                }
+            }
+        }
     }
 }
