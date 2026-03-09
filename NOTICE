@@ -1,0 +1,17 @@
+KDecoder License Transition Notice
+================================
+
+Effective license (current HEAD):
+- Proprietary / All rights reserved (see LICENSE)
+
+Recorded transition points (KST, UTC+09:00):
+- 47c4ff7 (2026-03-09 21:51:44 +0900):
+  Repository included MIT license text.
+- 3c7befc (2026-03-09 22:04:14 +0900):
+  Repository switched to Proprietary / All rights reserved.
+
+Interpretation note:
+- The current repository is distributed under the proprietary terms in LICENSE.
+- Copies obtained under earlier terms may remain subject to those earlier terms.
+
+Copyright (c) 2026 adgk2349
