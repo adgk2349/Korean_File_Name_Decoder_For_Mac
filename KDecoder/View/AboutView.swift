@@ -2,7 +2,7 @@
 //  AboutView.swift
 //  KDecoder
 //
-//  Created by Seung Min Lee on 3/2/26.
+//  Created by adgk2349 on 3/2/26.
 //
 
 import SwiftUI
@@ -76,7 +76,7 @@ struct AboutView: View {
                         .strokeBorder(Color.accentColor.opacity(0.3), lineWidth: 1)
                 )
 
-                Text("© 2026 adgk2349. All rights reserved.")
+                Text("Copyright (c) 2026 adgk2349")
                     .font(.caption2)
                     .foregroundColor(.secondary.opacity(0.7))
             }
