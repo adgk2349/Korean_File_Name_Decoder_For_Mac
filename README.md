@@ -85,4 +85,8 @@ KDecoder가 도움이 되셨다면 후원을 고려해 주세요!
 
 ## 📄 라이선스
 
-MIT License © 2026 [adgk2349](https://github.com/adgk2349)
+개인 저작물(독점 소프트웨어)입니다. 모든 권리는 저작권자에게 있으며 무단 사용, 복제, 수정, 배포를 금합니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참고하세요.
+
+## © 저작권
+
+Copyright (c) 2026 adgk2349
