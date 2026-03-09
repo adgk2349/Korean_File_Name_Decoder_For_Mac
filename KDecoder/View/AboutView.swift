@@ -45,7 +45,7 @@ struct AboutView: View {
                 Divider().opacity(0.4)
                 infoRow(label: "개발자", value: "adgk2349")
                 Divider().opacity(0.4)
-                infoRow(label: "라이선스", value: "MIT License")
+                infoRow(label: "라이선스", value: "Proprietary (All rights reserved)")
                 Divider().opacity(0.4)
 
                 // 설명
